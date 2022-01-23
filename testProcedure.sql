@@ -18,7 +18,7 @@ CREATE TABLE [dbo].[customers](
 	[address] [varchar](60) NULL,
 	[town] [char](15) NULL,
 	[phone] [char](24) NULL,
-	[fax] [char](24) NULL,
+	[fa] [char](24) NULL,
  CONSTRAINT [prim_customers1] PRIMARY KEY CLUSTERED 
 (
 	[customerid] ASC
